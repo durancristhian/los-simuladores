@@ -1,0 +1,23 @@
+{
+  "name": "los-simuladores",
+  "version": "1.0.0",
+  "description": "Get random Get a random name of the famous argentinian TV serie 'Los simuladores'",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durancristhian/los-simuladores.git"
+  },
+  "keywords": [
+    "random",
+    "simuladores"
+  ],
+  "author": "Cristhian Javier Duran <durancristhian@gmail.com> (https://github.com/durancristhian)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/durancristhian/los-simuladores/issues"
+  },
+  "homepage": "https://github.com/durancristhian/los-simuladores#readme"
+}
