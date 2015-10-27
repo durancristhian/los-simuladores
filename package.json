@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/durancristhian/los-simuladores/issues"
   },
-  "homepage": "https://github.com/durancristhian/los-simuladores#readme"
+  "homepage": "https://github.com/durancristhian/los-simuladores#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
 }
