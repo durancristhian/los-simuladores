@@ -1,6 +1,6 @@
 {
   "name": "los-simuladores",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Get random Get a random name of the famous argentinian TV serie 'Los simuladores'",
   "main": "src/index.js",
   "scripts": {
