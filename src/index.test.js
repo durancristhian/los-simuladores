@@ -31,5 +31,14 @@ describe("Los Simuladores", function () {
 			var randomItem = names.random();
 			expect(names.all).to.contain(randomItem);
 		});
+
+		it("should return an array of random items if passed a number", function () {
+
+			var randomItems = names.random(3);
+			expect(randomItems).to.have.length(3);
+			randomItems.forEach(function (item) {
+				expect(names.all).to.contain(item);
+			});
+		});
 	});
 });
