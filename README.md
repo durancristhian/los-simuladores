@@ -1,5 +1,4 @@
 # los-simuladores
-----------
 
 [![travis build](https://img.shields.io/travis/durancristhian/los-simuladores.svg)](https://travis-ci.org/durancristhian/los-simuladores)
 [![codecov coverage](https://img.shields.io/codecov/c/github/durancristhian/los-simuladores.svg)](https://codecov.io/github/durancristhian/los-simuladores)
