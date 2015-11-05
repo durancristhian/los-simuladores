@@ -1,14 +1,17 @@
 {
   "name": "los-simuladores",
   "description": "Get random Get a random name of the famous argentinian TV serie 'Los simuladores'",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "prebuild": "rm -rf dist && mkdir dist",
+    "build": "babel src/index.js -o dist/index.js",
+    "postbuild": "cp src/names.json dist/names.json",
     "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
     "commit": "git-cz",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "test": "mocha src/index.test.js -w",
-    "test:single": "istanbul cover -x *.test.js _mocha -- -R spec src/index.test.js"
+    "test": "mocha src/index.test.js -w --compilers js:babel/register",
+    "test:single": "istanbul cover -x *.test.js _mocha -- -R spec src/index.test.js --compilers js:babel/register"
   },
   "repository": {
     "type": "git",
@@ -28,6 +31,7 @@
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
+    "babel": "5.8.29",
     "chai": "3.4.0",
     "codecov.io": "0.1.6",
     "commitizen": "2.4.1",

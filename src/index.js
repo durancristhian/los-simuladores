@@ -1,5 +1,5 @@
-var names = require("./names.json");
-var uniqueRandomArray = require("unique-random-array");
+import names from "./names.json";
+import uniqueRandomArray from "unique-random-array";
 var getRandomItem = uniqueRandomArray(names);
 
 function random (number) {
