@@ -15,10 +15,15 @@ npm install los-simuladores
 ## Usage
 
 ```javascript
-var names = require('los-simuladores');
+var names = require("los-simuladores");
+
 var allNames = names.all;
 var randomName = names.random();
 var threeRandomNames = names.random(3);
+
+console.log(allNames);
+console.log(randomName);
+console.log(threeRandomNames);
 ```
 
 License
