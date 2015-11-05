@@ -4,11 +4,9 @@
 [![codecov coverage](https://img.shields.io/codecov/c/github/durancristhian/los-simuladores.svg)](https://codecov.io/github/durancristhian/los-simuladores)
 [![version](https://img.shields.io/npm/v/los-simuladores.svg)](https://www.npmjs.com/package/los-simuladores)
 
-> Get random names from ["Los simuladores"](https://es.wikipedia.org/wiki/Los_simuladores) characters.
+> Get random names of ["Los simuladores"](https://es.wikipedia.org/wiki/Los_simuladores).
 
 ## Installation
-
-This package is distributed via npm:
 
 ```
 npm install los-simuladores
